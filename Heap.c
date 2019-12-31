@@ -45,7 +45,7 @@ static void max_heapify(Heap H, heap_index i)
 			}
 		}
 		swap(H, largest, i);
-	} while(i != largest);
+	} while (i != largest);
 }		
 
 
